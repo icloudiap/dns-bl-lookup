@@ -42,8 +42,8 @@ cron will send to root some raports, also insert your e-mail into /root/.forward
 
 TODO:
 1. DOMAIN (not IP) blacklist check
-2. WHITELIST IP check (LHSBL) [http://www.blacklistalert.org/]
-3. RFC list check (RHSBL) [http://www.blacklistalert.org/]
+2. WHITELIST IP check (LHSBL) 
+3. RFC list check (RHSBL) 
 4. SERVFAIL checking
 5. LOCKFILE
 6. IGNORE list
