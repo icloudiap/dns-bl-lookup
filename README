@@ -1,6 +1,7 @@
 # dns-bl-lookup
 DNSBL - IP Check
 
+
 version: 1      
 date: 01.06.2016 
 Author: Tomasz@Oleksiewicz.pl 
@@ -27,8 +28,6 @@ CONFIGURATION:
 3. If PING technology is used, check used port list in $ping_list
 
 
-
-
 INSTALLATION:
 as root put dns-bl-lookup.php file in /etc/cron.daily/ 
 and chmod +x dns-bl-lookup.php 
@@ -41,7 +40,6 @@ and write in /etc/crontab
 cron will send to root some raports, also insert your e-mail into /root/.forward to see results in your mail
 
 
-
 TODO:
 1. DOMAIN (not IP) blacklist check
 2. WHITELIST IP check (LHSBL) [http://www.blacklistalert.org/]
@@ -52,6 +50,7 @@ TODO:
 7. CLI debug, CLI progressbar, counters dnsbl's total, ip's total, ip's/sec, checks/sec  
 8. Quarantine fo SERVFAIL dnsbl
 9. INSTALLATION 
+
 
 DEBUG:
 Some additional information available when DEBUG
