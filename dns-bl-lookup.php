@@ -55,7 +55,7 @@ $dnsbl_list = array (
 
 $ip_list = array( // your ip's  
   // some pool
-  array ( 'from' => '1.2.3.1',    'to' => '1.2.3.254'  ),
+//  array ( 'from' => '1.2.3.1',    'to' => '1.2.3.254'  ),
   // TEST IP (bad host)
   '186.190.224.45', 
 
